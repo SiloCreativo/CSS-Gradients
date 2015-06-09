@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic|Lora:400,700,700italic|Source+Code+Pro:400,700|Abril+Fatface|Montserrat);
+
+*, *:after, *:before { box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	background: #fff;
+	color: #1e1a1b;
+	padding: 0;
+	border: 0;
+	margin: 0 auto;
+	font-weight: 400;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	outline: none;
+	color: #dd3e62;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1e1a1b;
+}
+
+ a:focus {
+ 	outline: none;
+ }
+
+.hidden {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6  {
+	clear: both;
+	text-transform: none;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #fff;
+}
+h1 {
+	margin: 44px 0 34px;
+	font-size: 32px;
+	font-size: 2rem;
+}
+h2 {
+	margin: 44px 0 34px;
+	font-size: 26px;
+	font-size: 1.625rem;
+}
+h3 {
+	margin: 34px 0 24px;
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+h4 {
+	margin: 24px 0 24px;
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+h5 {
+	margin: 24px 0 14px;
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+h6 {
+	margin: 24px 0 14px;
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* Header */
+
+.labs-link-back a {
+	position: relative;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	color: #fff;
+	font-size: 18px;
+}
+.labs-link-back a:hover {
+	opacity: 0.7;
+	color: #fff;
+}
+.labs-link-back span {
+	vertical-align: middle;
+	display: inline-block;
+}
+.labs-link-back span svg {
+	display: block;
+}
+.labs-link-back span .labs-arrow-back {
+	fill: #fff;
+}
+
+
+/* Grid */
+.section_item {
+	height: auto;
+	max-width: calc(100vw - 30px);
+	margin: 15px;
+	padding: 10vw;
+	z-index: 1;
+	position: relative;
+	text-align: center;
+}
+.flex-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: space-around;
+	-ms-flex-line-pack: distribute;
+	align-content: space-around;
+	 -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flex-item {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+.section_item p {
+	font-size: 18px;
+	font-size: 1rem;
+	color: #fff;
+	max-width: 700px;
+	line-height: 1.5;
+}
+
+
+/* Background colors */
+.color-1 {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	background: -webkit-linear-gradient(90deg, #53bbbf 10%, #0f1939 90%);
+	background:    -moz-linear-gradient(90deg, #53bbbf 10%, #0f1939 90%);
+	background:     -ms-linear-gradient(90deg, #53bbbf 10%, #0f1939 90%);
+	background:      -o-linear-gradient(90deg, #53bbbf 10%, #0f1939 90%);
+	background:         linear-gradient(90deg, #53bbbf 10%, #0f1939 90%);
+}
+.color-2 {
+	font-family: 'Playfair Display', serif;
+	background: -webkit-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background:    -moz-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background:     -ms-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background:      -o-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background:         linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+}
+.color-2 h1 {
+	font-weight: 700;
+	font-style: italic;
+}
+.color-3 {
+	font-family: 'Abril Fatface', cursive;
+	background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:    -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:     -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:      -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:         linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+}
+.color-4 {
+	font-family: 'Source Code Pro', serif;
+	background: -webkit-linear-gradient(90deg, #e75053 10%, #f9d423 90%);
+	background:    -moz-linear-gradient(90deg, #e75053 10%, #f9d423 90%);
+	background:     -ms-linear-gradient(90deg, #e75053 10%, #f9d423 90%);
+	background:      -o-linear-gradient(90deg, #e75053 10%, #f9d423 90%);
+	background:         linear-gradient(90deg, #e75053 10%, #f9d423 90%);
+}
+.color-4 h1 {
+	font-weight: 700;
+}
+.color-5 {
+	font-family: 'Lora', serif;
+	background: -webkit-linear-gradient(90deg, #f7ba96 10%, #82cde3 90%);
+	background:    -moz-linear-gradient(90deg, #f7ba96 10%, #82cde3 90%);
+	background:     -ms-linear-gradient(90deg, #f7ba96 10%, #82cde3 90%);
+	background:      -o-linear-gradient(90deg, #f7ba96 10%, #82cde3 90%);
+	background:         linear-gradient(90deg, #f7ba96 10%, #82cde3 90%);
+}
+.color-5 h1 {
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* Related lab experiments */
+
+@media (min-width: 768px) {
+
+/* Headlines */
+	h1 {
+		margin: 54px 0 44px;
+		font-size: 76px;
+	}
+	h2 {
+		margin: 54px 0 44px;
+		font-size: 30px;
+		font-size: 1.875rem;
+	}
+	h3 {
+		margin: 44px 0;
+		font-size: 26px;
+		font-size: 1.625rem;
+	}
+	h4 {
+		margin: 34px 0;
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+	h5 {
+		margin: 24px 0;
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+	h6 {
+		margin: 24px 0;
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+	.color-1 h1 {
+		font-size: 42px;
+	}
+	/* Grid */
+	.section_item {
+		height: calc(100vh - 40px);
+		min-height: 460px;
+		max-width: calc(100vw - 40px);
+		margin: 20px;
+		padding: 100px 20vw;
+		z-index: 1;
+		position: relative;
+		text-align: left;
+	}
+	.flex-container {
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.section_item p {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+}
