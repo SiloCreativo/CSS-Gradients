@@ -7,7 +7,7 @@ CSS3 Gradient Examples
 
 Follow us: [Twitter], [Facebook], [Google+], [Pinterest]
 
-[View full article on SiloCreativo]:http://www.silocreativo.com/labs/gradient-css/
+[View full article on SiloCreativo]:http://www.silocreativo.com/2015/06/degradados-css3-fondos-gradientes/
 [View Demo]:http://www.silocreativo.com/labs/gradient-css/
 [Twitter]:https://twitter.com/silocreativo
 [Facebook]:https://www.facebook.com/silocreativo
